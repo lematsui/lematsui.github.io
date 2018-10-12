@@ -1,9 +1,10 @@
 #hamster {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
 #khaif {
-  font-size: 10em;
+  font-size: 5em;
   font-weight: bold;
+  margin: 0 auto;
 }
