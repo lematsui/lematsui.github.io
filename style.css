@@ -1,8 +1,11 @@
-#hamster {
+#hamsterbox {
   display: flex;
+  justify-content: space-around;
+}
+
+#hamster {
   width: 500px;
   height: auto;
-  justify-content: space-around;
 }
 
 
