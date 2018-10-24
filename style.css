@@ -97,7 +97,7 @@ a:hover .icon-text {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   #all {
     margin-top: 100px;
   }
