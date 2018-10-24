@@ -47,9 +47,10 @@ a:hover .icon-text {
 .icon-text {
   font-family: 'Arial', sans-serif;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.9em;
   margin-top: 7px;
   visibility: hidden;
+  letter-spacing: -1px;
 }
 
 
@@ -71,6 +72,24 @@ a:hover .icon-text {
 }
 
 @media only screen and (max-width: 768px) {
+  #all {
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 5em;
+  }
+  #bio {
+    font-size: 1.8em;
+  }
+  #profile-image {
+    width: 300px;
+  }
+  .fa-5x {
+    font-size: 7em;
+  }
+  .icon-text {
+    font-size: 1.25em
+  }
 }
 
 
