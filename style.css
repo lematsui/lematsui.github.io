@@ -1,10 +1,13 @@
 body {
   background-color: #FFF6E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
-  margin: 50px 5px auto;
+  margin: 5px auto;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 2.5em;
@@ -26,7 +29,7 @@ a:hover .icon-text {
 }
 
 #all {
-  margin-top: 100px;
+
 }
 
 #links {
@@ -55,6 +58,7 @@ a:hover .icon-text {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  color: rgb(0, 0, 0, 0.7);
 }
 
 #profile-image {
@@ -67,10 +71,6 @@ a:hover .icon-text {
 }
 
 @media only screen and (max-width: 768px) {
-  #all {
-    margin-top: 10px;
-    width: 100%;
-  }
 }
 
 
