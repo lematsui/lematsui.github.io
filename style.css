@@ -1,9 +1,7 @@
 /*For mobile*/
 @media (max-width: 1000px) {
   body {
-    background-image: url('images/arieldev.jpg');
     background-size: cover;
-    background-position: center;
   };
 }
 
@@ -14,8 +12,9 @@
 
 /*For desktop*/
 body {
-  background-image: url('images/arieldev.jpg');
+  background-image: url('images/arigif.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
+  margin: 0;
 };
