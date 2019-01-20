@@ -1,0 +1,27 @@
+h1 {
+  color: #edeeef;
+  font-size: 5em;
+  font-family: "Origicide";
+  text-align: center;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+/*For mobile*/
+@media (max-width: 1000px) {
+  body {
+    background-size: cover;
+  };
+}
+
+/*For desktop*/
+body {
+  background-image: url('images/arigif.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin: 0;
+};
+
